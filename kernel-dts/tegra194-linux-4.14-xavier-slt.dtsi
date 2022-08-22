@@ -19,12 +19,3 @@
  */
 
 #include "tegra194-linux-4.14-core.dtsi"
-/ {
-
-	/* Change hardware identifier for k4.14 ap_sanity test */
-	firmware {
-		android {
-			hardware = "xavier-slt-k414";
-		};
-	};
-};
